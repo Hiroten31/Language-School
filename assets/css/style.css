@@ -1,61 +1,114 @@
 body {
     margin: 0;
+    height: 3000px;
 }
 
-.courses {
-    background-color: rgb(48, 46, 46);
-    width: 100%;
-    height: 190px;
-}
-
-.teachers {
-    background-color: rgb(48, 46, 46);
-    width: 100%;
-    height: 190px;
-}
 
 #upper-line {
     background-image: linear-gradient(100deg, yellow, orange, red); 
     padding: 10px;
+    height: 2%;
+    overflow: hidden;
     color: rgb(78, 68, 68);
     font-family: fantasy;
-    font-size: 50px;
+    font-size: 300%;
     text-align: center;
 }
 
 #main-body {
-    height: 700px;
+    height: 100%;
     background-color: gray;
 }
+
+#courses {
+    background-color: rgb(30, 127, 151);
+    height: 12%;
+    white-space: nowrap;
+}
+
+#teachers {
+    background-color: rgb(27, 158, 44);
+    overflow-y: hidden;
+    height: 12%;
+    white-space: nowrap;
+}
+
 .course {
     background-color: rgb(202, 110, 23);
-    float: left;
-    width: 150px;
-    height: 150px;
-    margin: 10px;
+    height: 90%;
+    display: inline-block;
+    aspect-ratio: 1;
+    margin: 20px;
 }
 
 .teacher {
-    background-color: rgb(29, 214, 54);
-    float: left;
-    width: 150px;
-    height: 150px;
-    margin: 10px;
+    background-color: rgb(223, 219, 16);
+    display: inline-block;
+    height: 90%;
+    aspect-ratio: 1;
+    margin: 20px;
 }
 
 #course1 {
+    
+}
+
+#course1image {
     background-image: url("../images/britain.jpg");
-    background-size:contain;
+    height: 70%;
+    background-size: cover;
 }
 
 #course2 {
     
 }
 
+#course2image {
+    background-image: url("../images/germany.jpg");
+    height: 70%;
+    background-size: cover;
+}
+
 #course3 {
     
 }
 
+#course3image {
+    background-image: url("../images/italy.jpg");
+    height: 70%;
+    background-size: cover;
+}
+
 #course4 {
     
+}
+
+#course4image {
+    background-image: url("../images/poland.png");
+    height: 70%;
+    background-size: cover;
+}
+
+#teacher1image {
+    background-image: url("../images/depp.jpg");
+    height: 70%;
+    background-size: cover;
+}
+
+#teacher2image {
+    background-image: url("../images/holand.jpg");
+    height: 70%;
+    background-size: cover;
+}
+
+#teacher3image {
+    background-image: url("../images/mayahawke.jpg");
+    height: 70%;
+    background-size: cover;
+}
+
+#teacher4image {
+    background-image: url("../images/downey.jpg");
+    height: 70%;
+    background-size: cover;
 }
