@@ -1,47 +1,46 @@
 body {
     margin: 0;
     height: 3000px;
-    background-color: gray;
+    width: 100%;
+    overflow-x: hidden;
+    background: linear-gradient(90deg, rgba(255,147,0,1) 0%, rgba(9,121,117,1) 50%, rgba(255,0,204,1) 100%);
 }
 
 
 #upper-line {
     background-image: url("../images/purpleforest.jpg");
-    background-position-y: 19rem;
-    background-position-x: -8rem;
-    background-repeat: no-repeat;
-    background-size: 75rem;
+    background-position-y: 63rem;
+    background-position-x: -400rem;
+    background-size: 120rem;
     position: fixed;
-    width: 100%;
     padding: 1rem;
-    height: 4rem;
-    color: rgb(126, 126, 65);
-    font-size: 3rem;
+    font-size: 2rem;
+    width: 100%;
+    z-index: 1;
+    color: white;
     text-align: center;
 }
 
 
 #main-body {
     height: 100%;
-    width: 100%;
+    z-index: 0;
 }
 
 #site-description {
     background-image: url("../images/purpleforest.jpg");
-    background-position: bottom;
-    background-size: 75rem;
-    overflow: hidden;
-    height: 15rem;
-    padding: 2rem;
-    align-content: center;
+    background-position-y: 59rem;
+    background-position-x: -400rem;
+    background-size: 120rem;
+    padding: 1rem;
     text-align: center;
 }
 
 #site-description-text {
     padding: 2rem;
     font-size: 20px;
-    mix-blend-mode: difference;
-    color: white;
+    mix-blend-mode: hard-light;
+    color: rgb(255, 238, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
