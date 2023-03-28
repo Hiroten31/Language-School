@@ -3,18 +3,29 @@ body {
     height: 3000px;
     width: 100%;
     overflow-x: hidden;
-    background: linear-gradient(90deg, rgba(255,147,0,1) 0%, rgba(9,121,117,1) 50%, rgba(255,0,204,1) 100%);
+    background: linear-gradient(200deg, rgba(36,20,42,1) 0%, rgba(32,19,37,1) 50%, rgba(19,12,22,1) 100%);
 }
 
+.section::-webkit-scrollbar {
+    height: 8px;
+    width: 10px;
+    background: linear-gradient(262deg, rgba(117,0,121,1) 0%, rgba(19,12,22,1) 100%);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(154,154,154,1) 100%);
+}
 
 #upper-line {
     background-image: url("../images/purpleforest.jpg");
-    background-position-y: 63rem;
-    background-position-x: -400rem;
+    background-position-y: 63.5rem;
     background-size: 120rem;
     position: fixed;
-    padding: 1rem;
-    font-size: 2rem;
+    font-family: 'Brush Script MT', cursive;
+    text-shadow: 3px 3px rgb(100, 30, 130);
+    white-space: nowrap;
+    padding: 10px;
+    font-size: 3rem;
     width: 100%;
     z-index: 1;
     color: white;
@@ -25,12 +36,13 @@ body {
 #main-body {
     height: 100%;
     z-index: 0;
+    color: white;
+    font-family: Verdana, sans-serif;
 }
 
 #site-description {
     background-image: url("../images/purpleforest.jpg");
     background-position-y: 59rem;
-    background-position-x: -400rem;
     background-size: 120rem;
     padding: 1rem;
     text-align: center;
@@ -40,37 +52,34 @@ body {
     padding: 2rem;
     font-size: 20px;
     mix-blend-mode: hard-light;
-    color: rgb(255, 238, 0);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-family: Georgia, serif;
 }
 
-#courses {
-    background-color: rgb(30, 127, 151);
-    height: 12%;
-    white-space: nowrap;
+#section-title {
+    background: linear-gradient(0deg, rgba(117,0,121,0.3) 0%, rgba(19,12,22,1) 100%);
+    padding: 3rem;
+    padding-bottom: 1rem;
+    font-size: 3rem;
 }
 
-#teachers {
-    background-color: rgb(27, 158, 44);
+.section {
+    background-color: rgba(117, 0, 121, 0.3);
     overflow-y: hidden;
     height: 12%;
     white-space: nowrap;
 }
 
-.course {
-    background-color: rgb(202, 110, 23);
-    height: 90%;
+.panel {
+    background: linear-gradient(180deg, rgba(29,12,124,1) 0%, rgba(36,116,179,1) 100%);    height: 90%;
     display: inline-block;
     aspect-ratio: 1;
+    vertical-align: top;
     margin: 20px;
-}
-
-.teacher {
-    background-color: rgb(223, 219, 16);
-    display: inline-block;
-    height: 90%;
-    aspect-ratio: 1;
-    margin: 20px;
+    font-variant: small-caps;
+    text-align: center;
+    text-shadow: 1px 1px 10px rgba(131,225,251,1);
+    font-size: 20px;
 }
 
 #course1 {
