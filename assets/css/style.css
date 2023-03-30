@@ -1,9 +1,16 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 3000px;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(43,21,147,1) 100%);
+}
+
 body {
     margin: 0;
-    height: 3000px;
+    padding: 0;
     width: 100%;
+    height: 2750px;
     overflow-x: hidden;
-    background: linear-gradient(200deg, rgba(36,20,42,1) 0%, rgba(32,19,37,1) 50%, rgba(19,12,22,1) 100%);
 }
 
 .section::-webkit-scrollbar {
@@ -56,29 +63,31 @@ body {
     font-family: Georgia, serif;
 }
 
-#section-title {
-    background: linear-gradient(0deg, rgba(117,0,121,0.3) 0%, rgba(19,12,22,1) 100%);
+.section-title {
     padding: 3rem;
     padding-bottom: 1rem;
     font-size: 3rem;
 }
 
 .section {
-    background-color: rgba(117, 0, 121, 0.3);
+    background-color: rgba(55, 193, 247, 0.7);
+    box-shadow: inset 0 0 100px rgba(0,0,0,0.8);
     overflow-y: hidden;
     height: 12%;
     white-space: nowrap;
 }
 
 .panel {
-    background: linear-gradient(180deg, rgba(29,12,124,1) 0%, rgba(36,116,179,1) 100%);    height: 90%;
+    background: rgba(3, 103, 181);
+    box-shadow: inset 0 0 100px rgba(0,0,0,1);
+    height: 90%;
     display: inline-block;
+    margin-left: 40px;
+    margin-top: 15px;
     aspect-ratio: 1;
     vertical-align: top;
-    margin: 20px;
     font-variant: small-caps;
     text-align: center;
-    text-shadow: 1px 1px 10px rgba(131,225,251,1);
     font-size: 20px;
 }
 
