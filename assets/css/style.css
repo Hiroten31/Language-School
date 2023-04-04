@@ -1,8 +1,9 @@
 html {
     margin: 0;
     padding: 0;
-    height: 3000px;
+    height: 5000px;
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(43,21,147,1) 100%);
+    background-size: cover;
 }
 
 body {
@@ -30,13 +31,12 @@ body {
     position: fixed;
     font-family: 'Brush Script MT', cursive;
     text-shadow: 3px 3px rgb(100, 30, 130);
-    white-space: nowrap;
     padding: 10px;
+    padding-left: 3rem;
     font-size: 3rem;
     width: 100%;
     z-index: 10;
     color: white;
-    text-align: center;
 }
 
 
@@ -75,10 +75,11 @@ body {
 #first-section-text {
     width: 50%;
     margin: calc(1rem * 1vw);
+    padding-left: 2%;
 }
 
 #first-section-text span {
-    min-width: 150px;
+    min-width: 180px;
     position: absolute;
     width: 60%;
     font-size: calc(9px + 0.9vw);
@@ -149,6 +150,7 @@ body {
     padding: 3rem;
     padding-bottom: 1rem;
     font-size: 2rem;
+    min-width: 450px;
 }
 
 .panels {
@@ -180,6 +182,27 @@ body {
 .panel:hover {
     box-shadow: 0 4px 0px 0 rgba(0, 0, 0, 0.2);
     transform: scale(1.05);
+}
+
+#second-section {
+    padding: 5rem;
+    text-align: center;
+}
+
+#second-section a {
+    font-size: 5rem;
+}
+
+#second-section p {
+    font-size: 2rem;
+}
+
+#form {
+    background: linear-gradient(180deg, rgba(171, 121, 209, 1) 0%, rgba(117, 0, 121, 0.7) 100%);
+    padding: 3rem;
+    font-size: 20px;
+    height: 800px;
+
 }
 
 #course1 {
@@ -245,3 +268,4 @@ body {
     height: 70%;
     background-size: cover;
 }
+
