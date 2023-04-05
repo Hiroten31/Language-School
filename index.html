@@ -91,22 +91,38 @@
         <div id="second-section">
             <a>Join our classes now!</a>
             <p>Fill the form and we will contant you!</p>
-            <div id="form">
+            <div id="forms">
                 <form>
-                    <table>
-                        <tr>
-                            <th>Name</th>
-                            <th>Surname</th>
-                            <th>Contact</th>
-                        </tr>
-                        <tr>
-                            <td><input type="text"></td>
-                            <td><input type="text"></td>
-                            <td><input type="text"></td>
-                        </tr>
-                        <tr>
-                        </tr>
-                    </table>
+                    <div class="center">
+                        <label>Name: </label>
+                        <input type="text" class="temp">
+                    </div>
+                    <div class="center">
+                        <label>Contact: </label>
+                        <input type="text" class="temp">
+                    </div>
+                    <div id="forms_checkboxes">
+                        <label>Courses you are instered in:</label><br/>
+                        <label class="checkbox_text"><input type="checkbox">London</label><br/>
+                        <label class="checkbox_text"><input type="checkbox">Paris</label><br/>
+                        <label class="checkbox_text"><input type="checkbox">Venice</label><br/>
+                        <label class="checkbox_text"><input type="checkbox">Wawel</label><br/>
+                    </div>
+                    <div id="forms_select">
+                        <label list="city">Choose your city:
+                        <select id="city">
+                            <option>...</option>
+                            <option>Cracov</option>
+                            <option>Warsaw</option>
+                            <option>Gdańsk</option>
+                            <option>Berlin</option>
+                            <option>Bratislava</option>
+                        </select>
+                        </label>
+                    </div>
+                    <div id="forms_submit">
+                        <input type="submit">
+                    </div>
                 </form>
             </div>
         </div>

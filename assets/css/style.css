@@ -83,7 +83,7 @@ body {
     position: absolute;
     width: 60%;
     font-size: calc(9px + 0.9vw);
-    text-shadow: -1px 0px 5px rgba(0, 0, 0, 1), 1px 0px 5px rgba(0, 0, 0, 1), 0px 1px 5px rgba(0, 0, 0, 1), 0px -1px 5px rgba(0, 0, 0, 1);;
+    text-shadow: -1px 0px 3px rgba(0, 0, 0, 1), 1px 0px 3px rgba(0, 0, 0, 1), 0px 1px 3px rgba(0, 0, 0, 1), 0px -1px 3px rgba(0, 0, 0, 1);;
 }
 
 #square_one {
@@ -92,7 +92,7 @@ body {
     left: 57%;
     width: 200px;
     height: 200px;
-    background-color: rgba(134, 47, 126, 0.6);
+    background-color: rgba(255, 207, 6, 0.9);
 
 }
 
@@ -197,12 +197,53 @@ body {
     font-size: 2rem;
 }
 
-#form {
+#forms {
     background: linear-gradient(180deg, rgba(171, 121, 209, 1) 0%, rgba(117, 0, 121, 0.7) 100%);
     padding: 3rem;
-    font-size: 20px;
+    font-size: calc(1vw + 3rem);
+    min-width: 530px;
     height: 800px;
+    text-align: left;
+    overflow: auto;
+}
 
+.center {
+    display: flex;
+    align-items: center;
+}
+
+#forms_checkboxes {
+    margin-top: 2rem;
+}
+
+#forms_checkboxes input {
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    position: relative;
+    top: -5px;
+}
+
+.temp {
+    font-size: 3rem;
+}
+
+.checkbox_text:hover {
+    text-shadow: 0px 0px 5px rgba(255, 207, 6, 0.2), 0px 0px 5px rgba(255, 207, 6, 0.2), 0px 0px 5px rgba(255, 207, 6, 0.2), 0px 0px 5px rgba(255, 207, 6, 0.2);
+}
+#forms_select {
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+#forms_select select {
+    font-size: 2rem;
+}
+#forms_submit {
+    margin-top: 2rem;
+}
+#forms_submit input {
+    font-size: 3rem;
 }
 
 #course1 {
