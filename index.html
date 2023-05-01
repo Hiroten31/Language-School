@@ -84,22 +84,28 @@
                 <div id="teacher4">Robert Downey Jr.</div>
             </div>
         </div>
-        <div style="padding: 10rem">
-            You can find us here: <br/>
-            /Google maps to some adress/?
-        </div>
         <div id="second-section">
+            You can find us here:
+            <button id="London" onclick="mapChange(this.id)">London</button>
+            <button id="Paris" onclick="mapChange(this.id)">Paris</button>
+            <button id="Venice" onclick="mapChange(this.id)">Venice</button>
+            <button id="Wawel" onclick="mapChange(this.id)">Wawel</button>
+            <div>
+                <iframe id="map" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div id="third-section">
             <a>Join our classes now!</a>
             <p>Fill the form and we will contant you!</p>
             <div id="forms">
                 <form>
                     <div class="center">
                         <label>Name: </label>
-                        <input type="text" class="temp">
+                        <input type="text" class="temp" placeholder="Full name...">
                     </div>
                     <div class="center">
                         <label>Contact: </label>
-                        <input type="text" class="temp">
+                        <input type="text" class="temp" placeholder="Phone or e-mail...">
                     </div>
                     <div id="forms_checkboxes">
                         <label>Courses you are instered in:</label><br/>
